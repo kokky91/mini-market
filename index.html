@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Market - Fresh Groceries & Daily Essentials | The Gambia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-info">
+                <span><i class="fas fa-clock"></i> Open Daily: 7:00 AM - 10:00 PM</span>
+                <span><i class="fas fa-map-marker-alt"></i> The Gambia</span>
+            </div>
+            <div class="top-contact">
+                <a href="tel:+2201234567"><i class="fas fa-phone"></i> +220 1234567</a>
+                <a href="https://wa.me/2201234567"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon"><i class="fas fa-shopping-basket"></i></span>
+                <span>Mini<strong>Market</strong></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#deals">Deals</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#delivery">Delivery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="https://wa.me/2201234567?text=Hello,%20I%20want%20to%20place%20an%20order" class="btn btn-primary nav-cta">
+                <i class="fas fa-shopping-cart"></i> Order Now
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-leaf"></i> Fresh & Affordable
+                </div>
+                <h1>Your Neighbourhood<br><span class="highlight">Mini Market</span></h1>
+                <p class="hero-subtitle">Fresh fruits, vegetables, groceries, drinks, snacks & all your daily essentials. Quality products at the best prices in The Gambia.</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/2201234567?text=Hello,%20I%20want%20to%20order%20groceries" class="btn btn-primary btn-lg">
+                        <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                    </a>
+                    <a href="#products" class="btn btn-outline btn-lg">
+                        <i class="fas fa-th-large"></i> Browse Products
+                    </a>
+                </div>
+                <div class="hero-perks">
+                    <div class="perk"><i class="fas fa-truck"></i> Free Delivery</div>
+                    <div class="perk"><i class="fas fa-leaf"></i> Fresh Daily</div>
+                    <div class="perk"><i class="fas fa-tags"></i> Best Prices</div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-placeholder">
+                    <i class="fas fa-shopping-basket"></i>
+                    <span>Fresh Groceries</span>
+                    <em>Every Day</em>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,60 C240,120 480,0 720,60 C960,120 1200,0 1440,60 L1440,120 L0,120 Z" fill="#ffffff"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-th-large"></i> Shop by Category</span>
+                <h2>What We Sell</h2>
+                <p>Everything you need, all in one place</p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card" style="--accent: #4CAF50;">
+                    <div class="cat-icon"><i class="fas fa-apple-alt"></i></div>
+                    <h3>Fresh Fruits</h3>
+                    <p>Mangoes, bananas, oranges, papaya & more</p>
+                </div>
+                <div class="category-card" style="--accent: #8BC34A;">
+                    <div class="cat-icon"><i class="fas fa-carrot"></i></div>
+                    <h3>Vegetables</h3>
+                    <p>Tomatoes, onions, peppers, lettuce & greens</p>
+                </div>
+                <div class="category-card" style="--accent: #FF9800;">
+                    <div class="cat-icon"><i class="fas fa-bread-slice"></i></div>
+                    <h3>Bakery & Bread</h3>
+                    <p>Fresh bread, baguettes, pastries & cakes</p>
+                </div>
+                <div class="category-card" style="--accent: #2196F3;">
+                    <div class="cat-icon"><i class="fas fa-tint"></i></div>
+                    <h3>Drinks & Water</h3>
+                    <p>Water, juices, soft drinks, energy drinks</p>
+                </div>
+                <div class="category-card" style="--accent: #F44336;">
+                    <div class="cat-icon"><i class="fas fa-drumstick-bite"></i></div>
+                    <h3>Meat & Fish</h3>
+                    <p>Fresh chicken, beef, fish & seafood</p>
+                </div>
+                <div class="category-card" style="--accent: #9C27B0;">
+                    <div class="cat-icon"><i class="fas fa-cheese"></i></div>
+                    <h3>Dairy & Eggs</h3>
+                    <p>Milk, yogurt, cheese, butter & eggs</p>
+                </div>
+                <div class="category-card" style="--accent: #795548;">
+                    <div class="cat-icon"><i class="fas fa-jar"></i></div>
+                    <h3>Rice & Grains</h3>
+                    <p>Rice, couscous, flour, millet & cereals</p>
+                </div>
+                <div class="category-card" style="--accent: #E91E63;">
+                    <div class="cat-icon"><i class="fas fa-cookie-bite"></i></div>
+                    <h3>Snacks & Sweets</h3>
+                    <p>Biscuits, chips, chocolate, candy & nuts</p>
+                </div>
+                <div class="category-card" style="--accent: #00BCD4;">
+                    <div class="cat-icon"><i class="fas fa-pump-soap"></i></div>
+                    <h3>Household</h3>
+                    <p>Soap, detergent, cleaning products & more</p>
+                </div>
+                <div class="category-card" style="--accent: #607D8B;">
+                    <div class="cat-icon"><i class="fas fa-baby"></i></div>
+                    <h3>Baby Products</h3>
+                    <p>Diapers, baby food, formula & care items</p>
+                </div>
+                <div class="category-card" style="--accent: #FF5722;">
+                    <div class="cat-icon"><i class="fas fa-pepper-hot"></i></div>
+                    <h3>Spices & Sauces</h3>
+                    <p>Local spices, cooking oil, seasoning & sauces</p>
+                </div>
+                <div class="category-card" style="--accent: #3F51B5;">
+                    <div class="cat-icon"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Phone & Airtime</h3>
+                    <p>Phone credit, data bundles & accessories</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section class="deals" id="deals">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-fire"></i> Hot Deals</span>
+                <h2>Today's Special Offers</h2>
+                <p>Save big on these daily deals - while stocks last!</p>
+            </div>
+            <div class="deals-grid">
+                <div class="deal-card">
+                    <div class="deal-badge">-20%</div>
+                    <div class="deal-icon"><i class="fas fa-apple-alt"></i></div>
+                    <h3>Fresh Mango Box</h3>
+                    <div class="deal-price">
+                        <span class="old-price">GMD 250</span>
+                        <span class="new-price">GMD 200</span>
+                    </div>
+                    <p>Box of 10 sweet Gambian mangoes</p>
+                    <a href="https://wa.me/2201234567?text=I%20want%20to%20order%20Fresh%20Mango%20Box" class="btn btn-primary btn-sm">Order Now</a>
+                </div>
+                <div class="deal-card featured">
+                    <div class="deal-badge">-30%</div>
+                    <div class="deal-icon"><i class="fas fa-jar"></i></div>
+                    <h3>Rice 25kg Bag</h3>
+                    <div class="deal-price">
+                        <span class="old-price">GMD 1,400</span>
+                        <span class="new-price">GMD 980</span>
+                    </div>
+                    <p>Premium quality long grain rice</p>
+                    <a href="https://wa.me/2201234567?text=I%20want%20to%20order%20Rice%2025kg" class="btn btn-primary btn-sm">Order Now</a>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">-15%</div>
+                    <div class="deal-icon"><i class="fas fa-tint"></i></div>
+                    <h3>Water Pack (12x1.5L)</h3>
+                    <div class="deal-price">
+                        <span class="old-price">GMD 350</span>
+                        <span class="new-price">GMD 300</span>
+                    </div>
+                    <p>12 bottles of pure drinking water</p>
+                    <a href="https://wa.me/2201234567?text=I%20want%20to%20order%20Water%20Pack" class="btn btn-primary btn-sm">Order Now</a>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">-25%</div>
+                    <div class="deal-icon"><i class="fas fa-cookie-bite"></i></div>
+                    <h3>Snack Bundle</h3>
+                    <div class="deal-price">
+                        <span class="old-price">GMD 500</span>
+                        <span class="new-price">GMD 375</span>
+                    </div>
+                    <p>Mixed snacks, biscuits & drinks combo</p>
+                    <a href="https://wa.me/2201234567?text=I%20want%20to%20order%20Snack%20Bundle" class="btn btn-primary btn-sm">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-grid">
+            <div class="about-visual">
+                <div class="about-placeholder">
+                    <i class="fas fa-store"></i>
+                    <span>Mini Market</span>
+                    <em>Your Daily Shop</em>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="section-tag">About Us</span>
+                <h2>Your Friendly Neighbourhood Shop</h2>
+                <p>Welcome to <strong>Mini Market</strong> - your one-stop shop for fresh groceries, daily essentials, and household items in The Gambia. We're committed to bringing you quality products at affordable prices, every single day.</p>
+                <p>Whether you're cooking a family dinner, stocking up for the week, or just need a quick snack, we've got everything you need right here in your neighbourhood.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-box-open"></i></div>
+                        <div>
+                            <strong>500+</strong>
+                            <span>Products Available</span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-users"></i></div>
+                        <div>
+                            <strong>1,000+</strong>
+                            <span>Happy Customers</span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-truck"></i></div>
+                        <div>
+                            <strong>Free</strong>
+                            <span>Local Delivery</span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <strong>15 hrs</strong>
+                            <span>Open Daily</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery Section -->
+    <section class="delivery" id="delivery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-truck"></i> Delivery</span>
+                <h2>We Deliver To Your Door</h2>
+                <p>Order via WhatsApp and we'll bring it straight to you</p>
+            </div>
+            <div class="delivery-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-icon"><i class="fab fa-whatsapp"></i></div>
+                    <h3>Send Your List</h3>
+                    <p>WhatsApp us your shopping list or pick from our products</p>
+                </div>
+                <div class="step-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-icon"><i class="fas fa-calculator"></i></div>
+                    <h3>Get Your Total</h3>
+                    <p>We confirm availability and send you the total price</p>
+                </div>
+                <div class="step-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-icon"><i class="fas fa-motorcycle"></i></div>
+                    <h3>We Deliver!</h3>
+                    <p>Pay on delivery - cash or mobile money accepted</p>
+                </div>
+            </div>
+            <div class="delivery-info">
+                <div class="delivery-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Delivery Area</h4>
+                    <p>Banjul, Serekunda, Bakau, Fajara & surrounding areas</p>
+                </div>
+                <div class="delivery-card">
+                    <i class="fas fa-clock"></i>
+                    <h4>Delivery Time</h4>
+                    <p>Within 30 - 60 minutes of order confirmation</p>
+                </div>
+                <div class="delivery-card">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h4>Minimum Order</h4>
+                    <p>Free delivery on orders above GMD 500</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container cta-content">
+            <div class="cta-icon"><i class="fas fa-shopping-cart"></i></div>
+            <h2>Ready to Shop?</h2>
+            <p>Send us your shopping list on WhatsApp and we'll have it ready for pickup or delivery!</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/2201234567?text=Hello,%20here%20is%20my%20shopping%20list:" class="btn btn-white btn-lg">
+                    <i class="fab fa-whatsapp"></i> Send Shopping List
+                </a>
+                <a href="tel:+2201234567" class="btn btn-outline-white btn-lg">
+                    <i class="fas fa-phone"></i> +220 1234567
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <span class="section-tag">Find Us</span>
+                <h2>Visit Our Shop</h2>
+                <p>Come in and browse our fresh products, or order from the comfort of your home!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>The Gambia, West Africa</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+2201234567">+220 1234567</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/2201234567">+220 1234567</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <h4>Opening Hours</h4>
+                            <p>Mon - Sun: 7:00 AM - 10:00 PM</p>
+                            <p>Open every day including holidays</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-methods">
+                    <h4>We Accept</h4>
+                    <div class="methods">
+                        <span><i class="fas fa-money-bill-wave"></i> Cash</span>
+                        <span><i class="fas fa-mobile-alt"></i> Mobile Money</span>
+                        <span><i class="fas fa-exchange-alt"></i> Bank Transfer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <h3><i class="fas fa-shopping-cart"></i> Quick Order</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Your Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="address" placeholder="Delivery Address">
+                    </div>
+                    <div class="form-group">
+                        <select id="delivery-option">
+                            <option value="">Delivery or Pickup?</option>
+                            <option value="delivery">Delivery (free above GMD 500)</option>
+                            <option value="pickup">I'll pick it up</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="order" placeholder="Write your shopping list here...&#10;e.g.&#10;- 5kg Rice&#10;- 2L Cooking Oil&#10;- 6 Eggs&#10;- 1 pack Water" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fab fa-whatsapp"></i> Send Order via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-icon"><i class="fas fa-shopping-basket"></i></span>
+                        <span>Mini<strong>Market</strong></span>
+                    </a>
+                    <p>Your friendly neighbourhood shop for fresh groceries and daily essentials in The Gambia.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#deals">Today's Deals</a></li>
+                        <li><a href="#delivery">Delivery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#products">Fruits & Vegetables</a></li>
+                        <li><a href="#products">Meat & Fish</a></li>
+                        <li><a href="#products">Rice & Grains</a></li>
+                        <li><a href="#products">Drinks & Water</a></li>
+                        <li><a href="#products">Household Items</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+2201234567"><i class="fas fa-phone"></i> +220 1234567</a></li>
+                        <li><a href="https://wa.me/2201234567"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> The Gambia</li>
+                        <li><i class="fas fa-clock"></i> 7AM - 10PM Daily</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mini Market. All rights reserved. | Fresh products, fair prices, friendly service.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/2201234567?text=Hello,%20I%20want%20to%20place%20an%20order" class="whatsapp-float" aria-label="Order on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="float-label">Order Now</span>
+    </a>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
